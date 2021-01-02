@@ -1,0 +1,21 @@
+*{
+	margin: 0;
+	padding:0;
+}  
+header{
+	height: 200px;
+	padding: 30px;
+}
+.fakeimage{
+	
+	height: 250px;
+	background-color: gray;
+
+}
+footer{
+	background-color: blue;
+	height: 200px;
+	width: 100%;
+	text-align: center;
+	padding: 80px;
+}
