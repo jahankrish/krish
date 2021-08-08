@@ -1,0 +1,8 @@
+;if(CloudflareApps.matchPage(CloudflareApps.installs['8fsE9muOP9ri'].URLPatterns)){'use strict'
+var options=CloudflareApps.installs['8fsE9muOP9ri'].options;(function(){if(!window.addEventListener)return
+function updateElement(){var codeToAdd=document.createElement("noscript");codeToAdd.append(`<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=`+options.tag_id+`"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->`)
+document.body.prepend(codeToAdd);}
+if(document.readyState=='loading'){window.addEventListener('DOMContentLoaded',updateElement)}else{updateElement()}}())}
